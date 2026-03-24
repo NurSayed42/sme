@@ -1,4 +1,4 @@
-# 🏦 IDLC AI Credit Intelligence Platform
+# 🏦 ABC AI Credit Intelligence Platform
 ### Demo v1.0 — March 2026
 
 > An AI-powered SME credit risk assessment system built for Bangladesh's NBFI sector —  
