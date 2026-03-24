@@ -1,9 +1,60 @@
-# IDLC AI Credit Intelligence Platform
-## Demo v1.0 — March 2026
+# 🏦 IDLC AI Credit Intelligence Platform
+### Demo v1.0 — March 2026
+
+> An AI-powered SME credit risk assessment system built for Bangladesh's NBFI sector —  
+> combining alternative MFS data, explainable ML, supply chain contagion modeling,  
+> and LLM-generated credit memos into a single platform.
 
 ---
 
-## Folder Structure
+## ⚡ What This Does
+
+Bangladesh has **6.5 million SMEs** — most without formal financial records. Traditional credit scoring fails them. This platform bridges that gap using **bKash/Nagad transaction patterns** as alternative income verification, giving NBFIs like IDLC Finance PLC the tools to assess creditworthiness for the underbanked.
+
+**Three core modules:**
+
+| Module | Problem Solved |
+|---|---|
+| 🎯 AI Credit Scoring | XGBoost + SHAP scoring with MFS alternative data verification |
+| 🕸️ Supply Chain Risk | Graph-based cascade simulation — detect NPL contagion before it spreads |
+| 📄 Auto Credit Memo | LLM-generated professional memos in under 45 seconds |
+
+---
+
+## 🖥️ Screenshots
+
+> *(Add screenshots in `/docs/screenshots/` and link here)*
+
+| Dashboard | Credit Scoring | Supply Chain | Credit Memo |
+|---|---|---|---|
+| Portfolio overview | XGBoost + SHAP | Cascade animation | LLM memo output |
+
+---
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────┐
+│                   React Frontend                     │
+│   Dashboard │ CreditScore │ SupplyChain │ CreditMemo │
+└───────────────────────┬─────────────────────────────┘
+                        │ REST API
+┌───────────────────────▼─────────────────────────────┐
+│                  FastAPI Backend                     │
+│                    main.py                           │
+└──────┬────────────────┬──────────────────┬──────────┘
+       │                │                  │
+┌──────▼──────┐  ┌──────▼──────┐  ┌───────▼───────┐
+│ credit_     │  │ supply_     │  │ memo_         │
+│ model.py    │  │ chain.py    │  │ generator.py  │
+│ XGBoost     │  │ NetworkX    │  │ Groq LLM API  │
+│ + SHAP      │  │ Cascade Sim │  │               │
+└─────────────┘  └─────────────┘  └───────────────┘
+```
+
+---
+
+## 📁 Folder Structure
 
 ```
 idlc-ai-platform/
@@ -12,16 +63,16 @@ idlc-ai-platform/
 │   └── ml/
 │       ├── credit_model.py      ← XGBoost + SHAP credit scoring
 │       ├── supply_chain.py      ← Cascade risk engine (NetworkX)
-│       └── memo_generator.py   ← Claude API credit memo
+│       └── memo_generator.py    ← LLM credit memo generation
 ├── frontend/
 │   ├── src/
 │   │   ├── App.jsx              ← Main layout + navigation
 │   │   ├── index.css            ← Design system
 │   │   └── pages/
 │   │       ├── Dashboard.jsx    ← Portfolio overview
-│   │       ├── CreditScore.jsx  ← Module 1+4 (scoring + MFS)
-│   │       ├── SupplyChain.jsx  ← Module 5 (cascade map)
-│   │       └── CreditMemo.jsx   ← Module 7 (auto memo)
+│   │       ├── CreditScore.jsx  ← Scoring + MFS verification
+│   │       ├── SupplyChain.jsx  ← Cascade risk map
+│   │       └── CreditMemo.jsx   ← Auto memo generation
 │   └── package.json
 ├── demo-data/
 │   ├── generate.py              ← Synthetic data generator
@@ -34,9 +85,14 @@ idlc-ai-platform/
 
 ---
 
-## Run Instructions
+## 🚀 Getting Started
 
-### Step 1 — Generate data & train model (already done)
+### Prerequisites
+- Python 3.10+
+- Node.js 18+
+- Groq API key (free at [console.groq.com](https://console.groq.com))
+
+### Step 1 — Generate Data & Train Model
 ```bash
 cd idlc-ai-platform
 python demo-data/generate.py
@@ -46,11 +102,19 @@ python backend/ml/credit_model.py
 ### Step 2 — Start Backend
 ```bash
 cd backend
-export ANTHROPIC_API_KEY=sk-ant-YOUR_KEY_HERE
+pip install -r requirements.txt
+
+# Windows
+set GROQ_API_KEY=your_key_here
+
+# Mac/Linux
+export GROQ_API_KEY=your_key_here
+
 uvicorn main:app --port 8000 --reload
 ```
-Backend runs at: http://localhost:8000
-API docs at:     http://localhost:8000/docs
+
+- Backend: http://localhost:8000
+- API Docs (Swagger): http://localhost:8000/docs
 
 ### Step 3 — Start Frontend
 ```bash
@@ -58,68 +122,72 @@ cd frontend
 npm install
 npm run dev
 ```
-Frontend runs at: http://localhost:3000
+
+- Frontend: http://localhost:3000
 
 ---
 
-## Demo Flow for IDLC Presentation (15 minutes)
+## 🔌 API Endpoints
 
-### Minute 1-2: Dashboard
-- Show portfolio overview
-- Point to textile at 38% — "approaching BB limit"
-- Point to active alert at bottom
-
-### Minute 3-7: Credit Scoring (Module 1+4)
-- Fill form with Rahman Fabrics data (pre-filled)
-- Highlight: stated ৳22L vs MFS ৳28.4L
-- Click "Run AI Credit Scoring"
-- Show: score 74, DSCR 1.82x, income gap flag
-- Say: "আপনার RM manually ২-৩ ঘণ্টায় এটা করে, আমার system ৮ সেকেন্ডে করে"
-
-### Minute 8-11: Supply Chain (Module 5)
-- Click "Karim Yarn Mills" button
-- Watch cascade animation
-- Show affected companies turning yellow/red
-- Say: "এই cascade টা আপনারা ৪৫ দিন পরে দেখতেন, আমার system এখনই দেখাচ্ছে"
-
-### Minute 12-15: Credit Memo (Module 7)
-- Go to Memo tab → Generated Memo tab
-- Click "Generate Credit Memo"
-- Wait 30-45 seconds
-- Show full professional memo output
-- Say: "আপনার RM ৩ ঘণ্টায় এটা লেখে। এটা ৪৫ সেকেন্ডে হলো।"
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/credit/score` | Run credit scoring on application |
+| POST | `/api/credit/memo` | Generate LLM credit memo |
+| GET | `/api/supply-chain/graph` | Fetch borrower network graph |
+| POST | `/api/supply-chain/cascade` | Run NPL cascade simulation |
+| GET | `/api/portfolio/state` | Portfolio overview data |
+| GET | `/api/demo/applications` | Sample SME applications |
 
 ---
 
-## API Endpoints
+## 🧠 Key Technical Concepts
 
-| Method | Endpoint                     | Description              |
-|--------|------------------------------|--------------------------|
-| POST   | /api/credit/score            | Credit score application |
-| POST   | /api/credit/memo             | Generate credit memo     |
-| GET    | /api/supply-chain/graph      | Get graph data           |
-| POST   | /api/supply-chain/cascade    | Run cascade simulation   |
-| GET    | /api/portfolio/state         | Portfolio overview data  |
-| GET    | /api/demo/applications       | Sample applications      |
+**MFS Alternative Data**
+Most Bangladeshi SMEs lack formal bank statements. This platform uses bKash/Nagad transaction patterns to independently verify stated income — flagging discrepancies above 25% as high-risk signals.
+
+**XGBoost + SHAP Explainability**
+The credit scoring engine uses XGBoost trained on synthetic SME data. SHAP values decompose each decision — showing exactly which features (DSCR, CIB status, business age) drove the score, enabling regulatory audit trails.
+
+**Supply Chain Contagion Modeling**
+Using NetworkX graph analysis, the platform simulates how a single borrower default propagates through supplier/buyer networks. Identifies second and third-order NPL risks invisible to traditional per-borrower analysis.
+
+**LLM Credit Memo Generation**
+Structured loan assessment reports generated in under 45 seconds using Groq's LLaMA 3.3 70B model — following standard NBFI credit appraisal format with data-sourced citations.
 
 ---
 
-## Environment Variables
+## 📊 ROI Summary
+
+| Metric | Current | With AI Platform |
+|---|---|---|
+| RM applications / month | 12-15 | 35-40 |
+| Fraud detection rate | ~40% | ~88% |
+| Credit memo time | 2-3 hours | 45 seconds |
+| NPL early warning | After missed payment | 30-90 days prior |
+| Annual value (conservative) | — | ৳77+ crore |
+| System cost (annual) | — | ৳1.5-2 crore |
+| **Estimated ROI** | — | **40-50x** |
+
+---
+
+## ⚙️ Environment Variables
 
 ```bash
-ANTHROPIC_API_KEY=sk-ant-...    # Required for credit memo generation
+GROQ_API_KEY=your_key_here    # Required for LLM credit memo generation
 ```
 
 ---
 
-## ROI Summary (for IDLC presentation)
+## 🗺️ Roadmap
 
-| Metric                        | Current    | With AI        |
-|-------------------------------|------------|----------------|
-| RM apps / month               | 12-15      | 35-40          |
-| Fraud detection rate          | ~40%       | ~88%           |
-| Credit memo time              | 2-3 hours  | 45 seconds     |
-| NPL early warning             | After miss | 30-90 days     |
-| Annual value (conservative)   | —          | ৳77+ crore     |
-| System cost (annual)          | —          | ৳1.5-2 crore   |
-| **ROI**                       | —          | **40-50x**     |
+- [ ] Real CIB API integration
+- [ ] Live bKash/Nagad transaction feed
+- [ ] Bangladesh Bank compliance reporting module
+- [ ] Mobile RM field app
+- [ ] Multi-branch portfolio aggregation
+
+
+## ⚠️ Disclaimer
+
+This is a prototype built for demonstration purposes using synthetic data.
+Not intended for production use without real CIB integration and Bangladesh Bank compliance review.

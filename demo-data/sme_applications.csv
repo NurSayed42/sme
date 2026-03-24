@@ -1,0 +1,201 @@
+id,business_name,district,industry,business_age_years,stated_monthly_revenue_lac,mfs_monthly_revenue_lac,income_gap_pct,monthly_expenses_lac,existing_emi_lac,net_surplus_lac,dscr,collateral_value_lac,requested_amount_lac,cib_clean,rm_field_score,defaulted
+APP1000,Reza Textiles 1,Dhaka,textile,8,33.7,39.1,16.0,19.4,4.2,15.5,73.81,15.1,14.0,1,5,0
+APP1001,Akter Trading 2,Gazipur,trading,4,5.4,8.8,63.0,4.0,5.7,-0.9,-1.13,155.7,53.0,1,2,1
+APP1002,Hossain Knit 3,Cumilla,textile,18,18.4,23.7,28.8,13.3,2.8,7.6,7.79,28.3,65.0,1,4,0
+APP1003,Karim Traders 4,Khulna,food_processing,4,40.4,58.9,45.8,43.3,0.0,15.6,15.52,111.1,67.0,1,2,0
+APP1004,Chowdhury Retail 5,Chittagong,textile,16,25.7,36.4,41.6,26.3,1.7,8.4,10.0,19.0,56.0,1,3,0
+APP1005,Meghna Industries 6,Cumilla,trading,5,8.7,14.2,63.2,8.1,1.2,4.9,5.36,88.4,61.0,1,3,0
+APP1006,Chowdhury Retail 7,Cumilla,textile,9,38.5,57.7,49.9,32.1,3.5,22.1,30.69,19.9,48.0,1,4,0
+APP1007,Begum Foods 8,Khulna,food_processing,8,14.9,19.2,28.9,13.3,1.5,4.4,4.81,46.8,61.0,1,2,0
+APP1008,Reza Textiles 9,Mymensingh,retail,10,49.4,77.1,56.1,36.2,3.0,37.9,76.57,21.2,33.0,1,5,0
+APP1009,Prime Fabrics 10,Narayanganj,textile,4,16.5,18.5,12.1,12.3,1.8,4.4,10.48,18.1,28.0,0,4,0
+APP1010,Akter Trading 11,Sylhet,manufacturing,11,15.4,18.0,16.9,9.8,4.4,3.8,3.42,31.3,74.0,1,2,0
+APP1011,Islam Garments 12,Rajshahi,trading,5,56.5,79.6,40.9,58.0,1.5,20.1,24.81,59.5,54.0,1,5,0
+APP1012,Islam Garments 13,Khulna,textile,21,45.2,62.1,37.4,34.6,0.7,26.8,61.61,81.2,29.0,1,2,0
+APP1013,Meghna Industries 14,Rajshahi,manufacturing,10,11.5,13.2,14.8,6.8,2.3,4.1,8.04,13.8,34.0,1,3,0
+APP1014,Green Manufacturing 15,Dhaka,manufacturing,10,14.3,15.6,9.1,8.2,1.9,5.5,11.83,30.6,31.0,1,2,0
+APP1015,Star Trading Co 16,Chittagong,food_processing,3,17.6,19.0,8.0,12.2,0.0,6.8,9.65,44.2,47.0,1,3,0
+APP1016,Noor Enterprise 17,Cumilla,textile,5,6.5,8.3,27.7,4.7,0.0,3.6,4.44,40.0,54.0,1,5,0
+APP1017,Padma Traders 18,Rajshahi,food_processing,10,12.0,13.9,15.8,7.6,0.0,6.3,7.0,17.5,60.0,1,5,0
+APP1018,Karim Traders 19,Chittagong,trading,21,55.8,71.9,28.9,35.3,3.8,32.8,121.48,22.5,18.0,1,3,0
+APP1019,Hossain Knit 20,Sylhet,trading,8,24.4,37.6,54.1,19.9,0.0,17.7,15.13,177.6,78.0,1,5,0
+APP1020,Star Trading Co 21,Chittagong,trading,10,10.9,16.0,46.8,11.5,5.5,-1.0,-1.21,55.4,55.0,0,5,1
+APP1021,Excel Garments 22,Bogura,manufacturing,9,21.8,23.0,5.5,17.1,1.9,4.0,8.6,20.0,31.0,1,4,0
+APP1022,Excel Garments 23,Rajshahi,trading,10,8.5,9.0,5.9,6.1,1.0,1.9,1.84,41.5,69.0,1,2,0
+APP1023,Hossain Knit 24,Sylhet,trading,20,23.2,27.8,19.8,15.8,2.0,10.0,12.35,76.8,54.0,1,3,0
+APP1024,Jamuna Textiles 25,Narayanganj,food_processing,16,17.2,20.1,16.9,12.5,0.0,7.6,38.97,53.9,13.0,1,3,0
+APP1025,Green Manufacturing 26,Narayanganj,trading,7,13.3,14.1,6.0,8.7,3.0,2.4,2.03,35.5,79.0,0,2,0
+APP1026,Jamuna Textiles 27,Sylhet,retail,2,11.9,13.7,15.1,9.6,0.0,4.1,18.22,89.8,15.0,1,4,0
+APP1027,Karim Traders 28,Rajshahi,trading,3,10.3,12.6,22.3,8.3,1.6,2.7,5.14,46.4,35.0,1,4,0
+APP1028,Dhaka Knit Ltd 29,Dhaka,trading,19,41.3,66.0,59.8,42.1,0.5,23.4,104.0,16.5,15.0,1,3,0
+APP1029,Hossain Knit 30,Sylhet,retail,16,13.5,14.9,10.4,8.2,3.0,3.7,3.12,15.1,79.0,1,3,0
+APP1030,Dhaka Knit Ltd 31,Mymensingh,trading,21,5.7,7.0,22.8,4.2,1.4,1.4,3.73,54.1,25.0,1,5,0
+APP1031,Star Trading Co 32,Bogura,trading,21,14.5,21.3,46.9,15.8,4.8,0.7,1.41,31.8,33.0,1,4,0
+APP1032,Reza Textiles 33,Narayanganj,retail,6,8.7,9.6,10.3,5.5,3.1,1.0,3.17,15.7,21.0,1,3,0
+APP1033,Jamuna Textiles 34,Gazipur,trading,9,54.1,77.5,43.3,47.8,0.0,29.7,50.77,38.4,39.0,1,5,0
+APP1034,Padma Traders 35,Sylhet,food_processing,15,6.7,7.4,10.4,4.9,1.8,0.7,2.75,29.3,17.0,1,4,0
+APP1035,Star Trading Co 36,Mymensingh,retail,6,14.2,20.2,42.3,10.7,0.0,9.5,8.44,10.5,75.0,1,5,0
+APP1036,Akter Trading 37,Gazipur,manufacturing,5,22.2,35.9,61.7,22.5,0.5,12.9,17.2,94.5,50.0,1,5,0
+APP1037,Hossain Knit 38,Bogura,food_processing,20,35.9,51.2,42.6,36.9,0.0,14.3,63.56,16.5,15.0,0,3,0
+APP1038,Akter Trading 39,Chittagong,textile,19,25.7,28.1,9.3,18.4,3.2,6.5,15.48,22.5,28.0,1,3,0
+APP1039,Meghna Industries 40,Khulna,trading,14,54.7,58.7,7.3,31.4,0.0,27.3,28.89,15.9,63.0,1,2,0
+APP1040,Star Trading Co 41,Khulna,textile,5,13.4,20.3,51.5,12.6,5.4,2.3,2.64,18.2,58.0,1,4,0
+APP1041,United Foods 42,Bogura,food_processing,18,18.8,25.3,34.6,18.2,0.0,7.1,43.03,24.8,11.0,1,5,0
+APP1042,Rahman Fabrics 43,Cumilla,manufacturing,15,25.3,33.9,34.0,19.8,1.4,12.7,25.66,20.4,33.0,1,5,0
+APP1043,Reza Textiles 44,Cumilla,textile,17,33.1,36.6,10.6,27.4,2.0,7.2,7.74,11.7,62.0,1,4,0
+APP1044,Noor Enterprise 45,Chittagong,manufacturing,13,26.0,40.4,55.4,19.2,0.0,21.2,94.22,46.2,15.0,1,3,0
+APP1045,Green Manufacturing 46,Narayanganj,retail,6,9.8,13.7,39.8,9.5,0.0,4.2,3.54,98.3,79.0,1,3,0
+APP1046,United Foods 47,Sylhet,textile,20,32.0,44.3,38.4,24.3,1.7,18.3,43.57,27.1,28.0,1,3,0
+APP1047,Islam Garments 48,Cumilla,trading,9,7.3,10.5,43.8,5.5,0.0,5.0,7.75,25.3,43.0,0,2,0
+APP1048,Meghna Industries 49,Cumilla,manufacturing,7,34.2,56.0,63.7,40.2,0.0,15.8,13.17,32.5,80.0,0,4,0
+APP1049,Excel Garments 50,Narayanganj,trading,19,8.3,9.8,18.1,6.3,2.4,1.1,1.0,36.3,73.0,0,5,0
+APP1050,United Foods 51,Cumilla,trading,17,44.8,59.3,32.4,29.7,3.0,26.6,47.93,41.2,37.0,1,5,0
+APP1051,Dhaka Knit Ltd 52,Mymensingh,textile,10,10.4,13.7,31.7,7.4,2.6,3.7,4.25,60.4,58.0,1,3,0
+APP1052,Islam Garments 53,Dhaka,retail,7,58.9,87.5,48.6,41.5,3.8,42.2,57.41,72.8,49.0,1,5,0
+APP1053,Begum Foods 54,Sylhet,manufacturing,2,16.8,27.6,64.3,15.6,2.8,9.2,8.89,115.1,69.0,1,3,0
+APP1054,Padma Traders 55,Gazipur,textile,2,5.2,5.7,9.6,4.3,5.2,-3.8,-5.17,180.8,49.0,1,2,1
+APP1055,City Retail 56,Chittagong,textile,20,10.1,13.3,31.7,7.1,0.9,5.3,4.98,17.0,71.0,1,3,0
+APP1056,Akter Trading 57,Cumilla,textile,9,5.4,7.3,35.2,4.4,1.7,1.2,1.63,67.4,49.0,1,3,0
+APP1057,Jamuna Textiles 58,Bogura,trading,18,7.6,8.1,6.6,5.2,3.4,-0.5,-0.46,59.0,73.0,1,3,1
+APP1058,United Foods 59,Sylhet,trading,3,23.2,32.1,38.4,17.8,3.7,10.6,10.87,31.6,65.0,1,4,0
+APP1059,Chowdhury Retail 60,Khulna,food_processing,18,58.8,66.9,13.8,45.5,5.3,16.1,82.56,12.1,13.0,1,3,0
+APP1060,Noor Enterprise 61,Gazipur,food_processing,12,20.6,25.9,25.7,12.6,1.4,11.9,39.67,14.9,20.0,1,5,0
+APP1061,Green Manufacturing 62,Rajshahi,retail,4,42.3,57.5,35.9,29.2,2.3,26.0,78.79,11.3,22.0,1,2,0
+APP1062,Islam Garments 63,Bogura,food_processing,7,7.3,9.7,32.9,4.7,1.8,3.2,6.46,22.0,33.0,0,4,0
+APP1063,Hossain Knit 64,Gazipur,trading,16,17.9,20.5,14.5,10.9,1.8,7.8,8.39,59.2,62.0,1,4,0
+APP1064,Padma Traders 65,Dhaka,manufacturing,15,22.3,28.4,27.4,13.3,4.7,10.4,36.49,14.8,19.0,1,4,0
+APP1065,Padma Traders 66,Gazipur,food_processing,16,5.6,8.8,57.1,4.6,1.3,2.9,5.37,19.4,36.0,0,2,0
+APP1066,Hossain Knit 67,Dhaka,trading,13,9.8,12.3,25.5,8.4,0.0,3.9,16.25,30.7,16.0,1,3,0
+APP1067,Hossain Knit 68,Gazipur,textile,9,15.2,17.1,12.5,12.3,0.0,4.8,11.85,38.1,27.0,1,3,0
+APP1068,Hossain Knit 69,Rajshahi,textile,2,5.1,6.0,17.6,3.0,0.9,2.1,4.67,16.2,30.0,1,4,0
+APP1069,Reza Textiles 70,Gazipur,food_processing,4,18.4,23.9,29.9,17.2,6.0,0.7,0.63,35.7,74.0,0,3,1
+APP1070,Jamuna Textiles 71,Gazipur,retail,7,24.9,40.0,60.6,23.7,2.6,13.7,38.06,64.7,24.0,1,5,0
+APP1071,Padma Traders 72,Mymensingh,trading,2,29.0,39.7,36.9,21.3,0.0,18.4,58.41,36.1,21.0,1,4,0
+APP1072,City Retail 73,Gazipur,retail,7,12.4,14.0,12.9,7.1,2.6,4.3,17.92,44.6,16.0,1,2,0
+APP1073,Islam Garments 74,Gazipur,retail,12,16.5,23.3,41.2,17.0,2.0,4.3,3.68,63.3,78.0,1,5,0
+APP1074,Excel Garments 75,Khulna,textile,3,8.6,9.4,9.3,4.4,4.7,0.3,0.29,55.6,68.0,1,5,1
+APP1075,Green Manufacturing 76,Khulna,retail,6,35.3,51.2,45.0,27.9,1.9,21.4,24.6,36.6,58.0,1,5,0
+APP1076,Karim Traders 77,Chittagong,textile,20,22.6,31.0,37.2,16.1,2.5,12.4,22.34,79.0,37.0,1,5,0
+APP1077,Islam Garments 78,Rajshahi,retail,8,7.2,11.6,61.1,7.6,3.2,0.8,0.74,15.5,72.0,1,3,0
+APP1078,Chowdhury Retail 79,Gazipur,trading,5,114.3,171.6,50.1,115.5,0.0,56.1,74.8,11.0,50.0,1,4,0
+APP1079,Akter Trading 80,Bogura,food_processing,7,18.8,24.0,27.7,13.7,0.0,10.3,34.33,57.9,20.0,1,5,0
+APP1080,Reza Textiles 81,Narayanganj,retail,20,26.3,36.2,37.6,25.3,2.8,8.1,15.88,105.9,34.0,1,4,0
+APP1081,Hossain Knit 82,Gazipur,retail,15,22.2,35.5,59.9,22.5,3.8,9.2,8.64,10.5,71.0,1,5,0
+APP1082,Islam Garments 83,Cumilla,retail,6,51.0,75.2,47.5,42.3,1.7,31.2,138.67,12.1,15.0,0,2,0
+APP1083,Rahman Fabrics 84,Cumilla,textile,2,7.2,11.8,63.9,8.3,0.8,2.7,5.63,22.1,32.0,1,4,0
+APP1084,Molla Manufacturers 85,Gazipur,textile,10,29.5,34.6,17.3,19.0,0.0,15.6,21.67,25.2,48.0,1,3,0
+APP1085,City Retail 86,Bogura,retail,3,50.1,70.3,40.3,34.6,2.4,33.3,49.33,15.8,45.0,1,5,0
+APP1086,Karim Traders 87,Khulna,trading,12,23.0,24.3,5.7,18.0,0.0,6.3,8.57,28.4,49.0,1,4,0
+APP1087,Rahman Fabrics 88,Khulna,trading,18,11.4,14.1,23.7,7.2,1.6,5.3,14.72,78.5,24.0,1,2,0
+APP1088,Green Manufacturing 89,Sylhet,retail,17,20.0,21.8,9.0,13.3,1.6,6.9,10.45,32.9,44.0,1,4,0
+APP1089,Jamuna Textiles 90,Khulna,manufacturing,2,12.3,13.5,9.8,7.2,2.1,4.2,7.18,41.0,39.0,0,5,0
+APP1090,Chowdhury Retail 91,Narayanganj,retail,8,24.4,26.0,6.6,13.2,1.8,11.0,14.1,31.1,52.0,1,2,0
+APP1091,Karim Traders 92,Gazipur,manufacturing,2,19.6,29.1,48.5,19.4,1.7,8.0,7.84,68.1,68.0,1,2,0
+APP1092,Karim Traders 93,Cumilla,food_processing,15,11.2,17.8,58.9,11.9,2.9,3.0,10.53,66.5,19.0,1,2,0
+APP1093,Karim Traders 94,Dhaka,manufacturing,3,48.5,69.1,42.5,39.0,1.8,28.3,65.06,36.8,29.0,1,3,0
+APP1094,United Foods 95,Bogura,food_processing,10,15.3,18.8,22.9,12.9,5.9,0.0,0.0,13.6,50.0,1,4,0
+APP1095,Karim Traders 96,Narayanganj,food_processing,18,16.9,22.9,35.5,14.7,0.0,8.2,27.33,18.9,20.0,1,5,0
+APP1096,Molla Manufacturers 97,Chittagong,food_processing,14,26.2,38.2,45.8,18.5,1.9,17.8,40.92,35.8,29.0,1,2,0
+APP1097,Hossain Knit 98,Mymensingh,textile,13,9.2,9.7,5.4,5.1,0.0,4.6,10.95,49.5,28.0,1,2,0
+APP1098,Islam Garments 99,Khulna,trading,14,37.8,48.9,29.4,22.7,1.3,24.9,26.77,15.5,62.0,0,5,0
+APP1099,Padma Traders 100,Gazipur,food_processing,12,11.1,14.0,26.1,8.9,0.0,5.1,8.95,99.5,38.0,1,3,0
+APP1100,Meghna Industries 101,Dhaka,food_processing,2,10.7,14.7,37.4,6.8,2.8,5.1,6.54,30.6,52.0,1,3,0
+APP1101,Padma Traders 102,Khulna,textile,10,6.4,9.5,48.4,6.0,0.0,3.5,15.56,28.5,15.0,0,5,0
+APP1102,Dhaka Knit Ltd 103,Cumilla,food_processing,7,21.1,26.7,26.5,19.7,5.1,1.9,2.18,56.8,58.0,1,5,0
+APP1103,Dhaka Knit Ltd 104,Gazipur,manufacturing,20,28.7,44.0,53.3,28.2,3.2,12.6,11.51,128.2,73.0,1,4,0
+APP1104,Star Trading Co 105,Sylhet,trading,14,25.0,26.9,7.6,13.6,5.7,7.6,6.85,35.2,74.0,0,2,0
+APP1105,Green Manufacturing 106,Sylhet,trading,20,51.5,84.1,63.3,56.6,3.4,24.1,38.25,11.7,42.0,1,4,0
+APP1106,Rahman Fabrics 107,Chittagong,manufacturing,4,19.8,26.5,33.8,14.6,3.1,8.8,39.11,48.7,15.0,1,2,0
+APP1107,Padma Traders 108,Mymensingh,retail,14,22.7,35.9,58.1,20.7,1.8,13.4,11.31,28.6,79.0,0,2,0
+APP1108,Jamuna Textiles 109,Chittagong,textile,4,6.3,6.7,6.3,3.8,0.0,2.9,3.58,29.6,54.0,1,4,0
+APP1109,Reza Textiles 110,Cumilla,trading,8,18.3,27.3,49.2,15.2,0.0,12.1,26.02,20.2,31.0,1,2,0
+APP1110,Hossain Knit 111,Rajshahi,trading,15,5.8,6.5,12.1,3.4,0.0,3.1,3.18,99.8,65.0,0,3,0
+APP1111,Noor Enterprise 112,Rajshahi,trading,15,21.5,34.2,59.1,25.6,0.8,7.8,6.84,17.9,76.0,1,2,0
+APP1112,Jamuna Textiles 113,Bogura,trading,15,9.7,11.2,15.5,8.3,0.6,2.3,2.32,62.5,66.0,1,4,0
+APP1113,United Foods 114,Mymensingh,manufacturing,4,21.4,29.2,36.4,19.8,2.2,7.2,22.86,45.7,21.0,1,3,0
+APP1114,Noor Enterprise 115,Cumilla,textile,16,5.6,8.9,58.9,6.3,0.0,2.6,9.12,19.3,19.0,1,2,0
+APP1115,Reza Textiles 116,Narayanganj,textile,11,34.8,50.2,44.3,26.8,0.0,23.4,156.0,18.7,10.0,1,5,0
+APP1116,Jamuna Textiles 117,Chittagong,textile,7,63.9,71.3,11.6,50.3,1.8,19.2,29.09,30.5,44.0,1,3,0
+APP1117,Noor Enterprise 118,Sylhet,trading,9,25.4,35.3,39.0,21.4,0.0,13.9,34.32,70.8,27.0,1,5,0
+APP1118,Dhaka Knit Ltd 119,Gazipur,food_processing,12,9.9,15.9,60.6,10.7,4.3,0.9,0.83,15.2,72.0,1,4,0
+APP1119,United Foods 120,Sylhet,trading,11,7.5,9.4,25.3,4.2,1.9,3.3,3.49,34.4,63.0,1,3,0
+APP1120,Karim Traders 121,Sylhet,retail,15,12.1,16.8,38.8,10.8,2.7,3.3,3.38,33.3,65.0,0,3,0
+APP1121,Reza Textiles 122,Khulna,textile,10,64.3,80.7,25.5,54.6,2.3,23.8,72.12,56.6,22.0,1,5,0
+APP1122,Dhaka Knit Ltd 123,Dhaka,textile,18,31.5,46.5,47.6,29.6,1.0,15.9,14.93,11.4,71.0,1,2,0
+APP1123,Molla Manufacturers 124,Sylhet,trading,4,21.2,27.1,27.8,14.8,0.0,12.3,12.81,30.1,64.0,1,3,0
+APP1124,Prime Fabrics 125,Cumilla,retail,3,110.3,144.0,30.6,87.6,0.0,56.4,121.29,62.4,31.0,1,4,0
+APP1125,Islam Garments 126,Dhaka,food_processing,12,10.7,17.3,61.7,11.6,1.6,4.1,3.9,82.1,70.0,1,4,0
+APP1126,Jamuna Textiles 127,Narayanganj,textile,4,11.7,14.5,23.9,7.5,0.8,6.2,7.38,10.9,56.0,1,4,0
+APP1127,Padma Traders 128,Rajshahi,textile,9,8.1,9.5,17.3,6.5,0.0,3.0,3.17,65.9,63.0,1,5,0
+APP1128,Prime Fabrics 129,Narayanganj,food_processing,4,8.7,11.5,32.2,5.6,0.7,5.2,8.67,44.7,40.0,1,2,0
+APP1129,Noor Enterprise 130,Dhaka,trading,3,33.8,41.8,23.7,24.6,0.0,17.2,30.18,44.2,38.0,1,3,0
+APP1130,Excel Garments 131,Dhaka,manufacturing,14,30.5,49.5,62.3,29.4,0.0,20.1,49.63,13.3,27.0,1,5,0
+APP1131,Islam Garments 132,Gazipur,trading,21,12.6,19.1,51.6,11.6,1.0,6.5,12.38,12.8,35.0,0,5,0
+APP1132,Prime Fabrics 133,Cumilla,manufacturing,8,7.6,10.6,39.5,7.4,1.5,1.7,1.99,11.3,57.0,1,2,0
+APP1133,Begum Foods 134,Narayanganj,food_processing,7,21.3,30.2,41.8,20.0,2.6,7.6,8.44,71.4,60.0,1,3,0
+APP1134,Prime Fabrics 135,Narayanganj,trading,8,24.5,33.9,38.4,19.9,1.7,12.3,17.45,40.9,47.0,1,4,0
+APP1135,Dhaka Knit Ltd 136,Narayanganj,textile,13,10.1,11.6,14.9,6.4,0.0,5.2,5.59,29.1,62.0,1,2,0
+APP1136,Reza Textiles 137,Gazipur,retail,20,8.2,8.7,6.1,6.5,1.7,0.5,0.6,120.4,56.0,1,4,0
+APP1137,Star Trading Co 138,Chittagong,trading,16,10.4,13.8,32.7,7.9,1.9,4.0,4.94,66.2,54.0,1,3,0
+APP1138,Begum Foods 139,Bogura,textile,19,41.3,57.7,39.7,32.8,1.6,23.3,29.87,38.0,52.0,1,4,0
+APP1139,Excel Garments 140,Bogura,trading,20,11.0,13.9,26.4,8.9,2.9,2.1,7.37,49.6,19.0,1,5,0
+APP1140,Begum Foods 141,Gazipur,manufacturing,11,9.9,16.2,63.6,7.6,2.2,6.4,25.1,27.2,17.0,1,3,0
+APP1141,Star Trading Co 142,Gazipur,textile,21,21.2,24.3,14.6,13.8,1.9,8.6,52.12,68.6,11.0,1,5,0
+APP1142,Hossain Knit 143,Sylhet,manufacturing,14,9.9,11.8,19.2,5.9,0.6,5.3,10.39,32.0,34.0,1,2,0
+APP1143,United Foods 144,Rajshahi,manufacturing,9,22.3,32.9,47.5,18.5,3.1,11.3,21.52,37.9,35.0,1,2,0
+APP1144,Dhaka Knit Ltd 145,Cumilla,retail,13,15.6,24.5,57.1,11.8,0.8,11.9,56.67,19.4,14.0,1,5,0
+APP1145,Reza Textiles 146,Chittagong,textile,2,7.3,9.6,31.5,4.6,0.0,5.0,5.75,36.4,58.0,1,3,0
+APP1146,Reza Textiles 147,Mymensingh,trading,12,5.3,6.6,24.5,3.9,0.0,2.7,4.09,31.7,44.0,1,5,0
+APP1147,Meghna Industries 148,Chittagong,textile,14,7.8,12.6,61.5,9.3,4.5,-1.2,-1.4,13.0,57.0,1,2,0
+APP1148,Dhaka Knit Ltd 149,Rajshahi,retail,16,26.2,40.7,55.3,18.5,1.1,21.1,20.69,18.4,68.0,1,2,0
+APP1149,United Foods 150,Mymensingh,retail,9,33.6,53.8,60.1,34.8,0.0,19.0,22.62,25.0,56.0,0,5,0
+APP1150,Padma Traders 151,Khulna,textile,7,11.9,18.7,57.1,12.8,0.0,5.9,6.34,35.1,62.0,1,2,0
+APP1151,Karim Traders 152,Sylhet,trading,5,24.8,38.1,53.6,20.8,1.8,15.5,28.7,71.0,36.0,1,4,0
+APP1152,United Foods 153,Dhaka,retail,16,22.9,32.4,41.5,18.4,3.1,10.9,26.91,27.9,27.0,1,5,0
+APP1153,Excel Garments 154,Gazipur,food_processing,12,21.6,31.3,44.9,18.8,1.6,10.9,9.44,33.5,77.0,1,5,0
+APP1154,Dhaka Knit Ltd 155,Chittagong,retail,13,7.9,10.8,36.7,6.8,2.6,1.4,1.39,53.4,67.0,1,4,0
+APP1155,Islam Garments 156,Rajshahi,food_processing,12,5.1,7.3,43.1,4.7,5.8,-3.2,-8.89,24.3,24.0,1,4,1
+APP1156,Noor Enterprise 157,Cumilla,manufacturing,5,10.3,12.6,22.3,7.7,3.8,1.1,4.58,36.1,16.0,1,3,0
+APP1157,Star Trading Co 158,Rajshahi,retail,5,36.2,49.4,36.5,24.9,3.0,21.5,23.89,32.3,60.0,0,3,0
+APP1158,Akter Trading 159,Cumilla,manufacturing,5,14.9,16.4,10.1,7.6,1.3,7.5,6.49,40.1,77.0,1,3,0
+APP1159,Star Trading Co 160,Khulna,trading,10,33.4,48.0,43.7,33.7,3.3,11.0,20.95,79.1,35.0,1,2,0
+APP1160,Padma Traders 161,Mymensingh,trading,20,39.3,57.1,45.3,36.4,0.0,20.7,27.06,28.0,51.0,1,4,0
+APP1161,Jamuna Textiles 162,Khulna,manufacturing,2,9.4,10.4,10.6,5.4,2.9,2.1,2.55,16.9,55.0,1,2,0
+APP1162,Noor Enterprise 163,Sylhet,textile,3,10.8,15.2,40.7,8.8,1.1,5.3,6.09,47.9,58.0,1,5,0
+APP1163,Padma Traders 164,Khulna,trading,5,28.2,39.4,39.7,20.9,3.3,15.2,19.49,41.1,52.0,1,2,0
+APP1164,Green Manufacturing 165,Rajshahi,food_processing,10,22.3,29.3,31.4,20.2,1.8,7.3,10.14,18.0,48.0,1,3,0
+APP1165,Chowdhury Retail 166,Bogura,retail,13,12.1,15.1,24.8,8.5,0.6,6.0,5.0,23.5,80.0,1,5,0
+APP1166,Molla Manufacturers 167,Bogura,food_processing,13,6.7,10.9,62.7,5.6,0.0,5.3,20.78,33.0,17.0,1,5,0
+APP1167,United Foods 168,Sylhet,textile,17,24.7,37.7,52.6,18.3,3.2,16.2,98.18,119.7,11.0,1,5,0
+APP1168,Hossain Knit 169,Rajshahi,food_processing,21,22.6,24.9,10.2,15.8,3.6,5.5,17.46,31.2,21.0,0,5,0
+APP1169,Begum Foods 170,Sylhet,trading,19,12.5,16.0,28.0,9.9,1.9,4.2,7.37,20.9,38.0,1,5,0
+APP1170,Rahman Fabrics 171,Narayanganj,trading,7,50.3,67.8,34.8,38.5,1.3,28.0,49.12,30.9,38.0,1,2,0
+APP1171,City Retail 172,Gazipur,textile,11,41.5,63.6,53.3,44.2,2.5,16.9,93.89,21.7,12.0,1,4,0
+APP1172,Green Manufacturing 173,Chittagong,food_processing,21,20.3,32.7,61.1,23.2,0.7,8.8,13.33,86.8,44.0,1,3,0
+APP1173,Chowdhury Retail 174,Mymensingh,retail,21,17.6,22.7,29.0,11.0,0.0,11.7,17.33,29.5,45.0,1,2,0
+APP1174,Star Trading Co 175,Bogura,retail,14,54.6,86.0,57.5,55.2,0.0,30.8,38.74,17.3,53.0,1,4,0
+APP1175,Rahman Fabrics 176,Narayanganj,trading,6,32.3,42.8,32.5,28.9,1.2,12.7,27.31,39.0,31.0,1,2,0
+APP1176,Begum Foods 177,Khulna,textile,10,32.5,39.3,20.9,18.4,3.1,17.8,14.83,31.4,80.0,1,4,0
+APP1177,Green Manufacturing 178,Cumilla,trading,21,24.2,37.7,55.8,27.0,0.7,10.0,27.78,27.9,24.0,1,5,0
+APP1178,Begum Foods 179,Cumilla,textile,8,28.8,43.5,51.0,21.3,0.9,21.3,21.85,26.3,65.0,1,4,0
+APP1179,Akter Trading 180,Bogura,textile,8,22.4,27.9,24.6,20.7,0.9,6.3,5.45,58.5,77.0,1,4,0
+APP1180,Jamuna Textiles 181,Cumilla,retail,12,15.9,24.8,56.0,12.1,1.4,11.3,27.9,70.0,27.0,1,4,0
+APP1181,Green Manufacturing 182,Rajshahi,food_processing,21,40.3,51.8,28.5,38.2,1.8,11.8,24.58,56.4,32.0,1,5,0
+APP1182,Prime Fabrics 183,Cumilla,food_processing,2,38.1,40.9,7.3,28.5,5.0,7.4,13.33,30.5,37.0,1,2,0
+APP1183,Molla Manufacturers 184,Bogura,food_processing,14,7.9,11.8,49.4,5.5,0.0,6.3,6.77,11.2,62.0,1,4,0
+APP1184,Reza Textiles 185,Bogura,retail,18,61.4,91.6,49.2,68.5,1.2,21.9,19.21,116.0,76.0,1,4,0
+APP1185,United Foods 186,Sylhet,trading,6,19.4,30.0,54.6,13.7,2.7,13.6,11.62,12.6,78.0,1,5,0
+APP1186,Reza Textiles 187,Gazipur,retail,10,13.7,16.1,17.5,8.5,0.0,7.6,6.58,12.2,77.0,1,4,0
+APP1187,Noor Enterprise 188,Chittagong,retail,5,11.2,18.3,63.4,13.3,1.2,3.8,4.78,32.1,53.0,1,3,0
+APP1188,Dhaka Knit Ltd 189,Sylhet,trading,9,21.4,23.7,10.7,13.8,3.4,6.5,5.7,38.5,76.0,1,2,0
+APP1189,Hossain Knit 190,Cumilla,manufacturing,20,44.2,63.5,43.7,34.6,3.0,25.9,61.67,73.4,28.0,1,2,0
+APP1190,Begum Foods 191,Narayanganj,trading,9,29.8,41.3,38.6,20.8,3.0,17.5,14.77,33.6,79.0,1,2,0
+APP1191,Chowdhury Retail 192,Narayanganj,retail,3,7.5,11.1,48.0,6.6,3.9,0.6,1.18,14.9,34.0,1,2,0
+APP1192,Prime Fabrics 193,Khulna,textile,4,11.4,15.8,38.6,9.8,0.0,6.0,10.0,72.9,40.0,1,3,0
+APP1193,Green Manufacturing 194,Cumilla,manufacturing,2,29.4,46.4,57.8,26.5,1.9,18.0,50.0,58.3,24.0,1,5,0
+APP1194,Chowdhury Retail 195,Dhaka,retail,3,12.9,19.6,51.9,13.8,3.9,1.9,1.86,65.0,68.0,0,2,0
+APP1195,Padma Traders 196,Khulna,retail,21,12.1,13.8,14.0,8.3,2.4,3.1,5.59,14.0,37.0,1,3,0
+APP1196,Star Trading Co 197,Mymensingh,textile,4,7.7,11.1,44.2,5.0,1.5,4.6,8.76,39.0,35.0,1,5,0
+APP1197,Excel Garments 198,Dhaka,retail,8,16.8,24.1,43.5,12.5,2.0,9.6,45.71,46.4,14.0,1,3,0
+APP1198,Prime Fabrics 199,Khulna,manufacturing,20,17.4,19.1,9.8,12.9,1.5,4.7,12.53,130.5,25.0,1,4,0
+APP1199,Meghna Industries 200,Cumilla,food_processing,5,7.3,10.9,49.3,5.6,0.0,5.3,5.79,37.4,61.0,1,5,0

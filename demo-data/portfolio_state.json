@@ -1,0 +1,22 @@
+{
+  "total_portfolio_cr": 4612,
+  "npl_ratio": 3.8,
+  "risk_adjusted_yield": 11.2,
+  "sector_weights": {
+    "textile": 38,
+    "trading": 24,
+    "manufacturing": 18,
+    "retail": 12,
+    "other": 8
+  },
+  "district_weights": {
+    "Dhaka": 32,
+    "Chittagong": 28,
+    "Narayanganj": 14,
+    "Others": 26
+  },
+  "bb_limits": {
+    "single_sector_max_pct": 40,
+    "single_borrower_max_pct": 10
+  }
+}

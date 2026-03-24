@@ -1,0 +1,104 @@
+{
+  "companies": [
+    {
+      "id": "C1",
+      "name": "Karim Yarn Mills",
+      "industry": "textile",
+      "loan_lac": 280,
+      "risk_score": 82,
+      "district": "Narayanganj"
+    },
+    {
+      "id": "C2",
+      "name": "Rahman Fabrics",
+      "industry": "textile",
+      "loan_lac": 350,
+      "risk_score": 67,
+      "district": "Narayanganj"
+    },
+    {
+      "id": "C3",
+      "name": "Dhaka Knit Ltd",
+      "industry": "textile",
+      "loan_lac": 210,
+      "risk_score": 54,
+      "district": "Dhaka"
+    },
+    {
+      "id": "C4",
+      "name": "Excel Garments",
+      "industry": "textile",
+      "loan_lac": 480,
+      "risk_score": 61,
+      "district": "Chittagong"
+    },
+    {
+      "id": "C5",
+      "name": "Star Trading Co",
+      "industry": "trading",
+      "loan_lac": 120,
+      "risk_score": 38,
+      "district": "Dhaka"
+    },
+    {
+      "id": "C6",
+      "name": "Prime Retail",
+      "industry": "retail",
+      "loan_lac": 95,
+      "risk_score": 29,
+      "district": "Gazipur"
+    },
+    {
+      "id": "C7",
+      "name": "Noor Enterprise",
+      "industry": "manufacturing",
+      "loan_lac": 165,
+      "risk_score": 44,
+      "district": "Bogura"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C1",
+      "target": "C2",
+      "dependency_pct": 65,
+      "label": "Yarn supplier"
+    },
+    {
+      "source": "C1",
+      "target": "C3",
+      "dependency_pct": 40,
+      "label": "Yarn supplier"
+    },
+    {
+      "source": "C2",
+      "target": "C4",
+      "dependency_pct": 55,
+      "label": "Fabric supplier"
+    },
+    {
+      "source": "C3",
+      "target": "C4",
+      "dependency_pct": 35,
+      "label": "Fabric supplier"
+    },
+    {
+      "source": "C4",
+      "target": "C5",
+      "dependency_pct": 30,
+      "label": "Garment supplier"
+    },
+    {
+      "source": "C5",
+      "target": "C6",
+      "dependency_pct": 25,
+      "label": "Product supplier"
+    },
+    {
+      "source": "C2",
+      "target": "C7",
+      "dependency_pct": 20,
+      "label": "Fabric supplier"
+    }
+  ]
+}
